@@ -1,0 +1,63 @@
+{
+  "youtrack": {
+    "url": "https://DOMAIN.myjetbrains.com",
+    "token": "",
+    "project": ""
+  },
+  "jira": {
+    "domain": "none",
+    "user": "ADMIN_USER",
+    "token": "",
+    "project": "YOUR_PROJECT"
+  },
+  "mappings": {
+    "types": {
+      "Bug": "10004",
+      "Task": "10002",
+      "Exception": "10002",
+      "Feature": "10002",
+      "Epic": "10000",
+      "User Story": "10001"
+    },
+    "status": {
+      "Backlog": "To Do",
+      "Open": "To Do",
+      "Blocked": "Blocked",
+      "In Progress": "In Progress",
+      "On Hold": "On Hold",
+      "To Verify": "Open PR",
+      "RFT": "RFT",
+      "Verified": "Done",
+      "Testing on TEST": "Testing Stage",
+      "Testing on Production": "Testing Prod",
+      "Finished": "Closed"
+    },
+    "priority": {
+      "Lowest": "5",
+      "Low": "4",
+      "Normal": "3",
+      "Major": "3",
+      "Critical": "2",
+      "High": "2",
+      "Show-stopper": "1"
+    },
+    "linkTypes": {
+      "Refers": "Relates",
+      "Depend": "Relates",
+      "Duplicate": "Duplicate",
+      "Subtask": "Relates"
+    },
+    "users": {
+      "USER_LOGIN_IN_YT": "JIRA_USER_ID"
+    }
+  },
+  "app": {
+    "defaultUser": "YOUR_DEFAULT_JIRA_USER_ID",
+    "defaultJiraIssuePriority": "3",
+    "defaultIssueState": "To Do",
+    "timeTrackingScreenEnabled": false,
+    "fieldsToSaveInLabels": ["QaState", "State", "Department", "Client"],
+    "chunkSize": 20,
+    "maxBodyLength": 209715200
+  }
+}

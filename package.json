@@ -1,0 +1,40 @@
+{
+  "name": "euclifora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect index.js"
+  },
+  "author": "ikurnosov",
+  "license": "MIT",
+  "description": "Hi! This is a project to migrate your Youtrack tickets to JIRA.",
+  "dependencies": {
+    "axios": "0.27.2",
+    "commander": "9.4.1",
+    "config": "3.3.7",
+    "form-data": "4.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ikurnosov/euclifora.git"
+  },
+  "keywords": [
+    "JIRA",
+    "YouTrack",
+    "YT",
+    "jira",
+    "migration",
+    "tickets",
+    "Jira Rest API",
+    "YouTrack Rest API"
+  ],
+  "bin": {
+    "euclifora": "index.js"
+  }
+}
